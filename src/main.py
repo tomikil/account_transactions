@@ -1,5 +1,5 @@
 import utils as u
-file = 'E:/python2/account_transactions/operations.json'
+file = '../operations.json'
 load = u.get_latest_transactions(file)
 
 

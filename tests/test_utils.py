@@ -1,7 +1,6 @@
 from src import utils as u
 
-
-file = 'E:/python2/account_transactions/operations.json'
+file = './operations.json'
 load = u.load_word(file)
 sort_date = u.sort_by_date(file)
 
